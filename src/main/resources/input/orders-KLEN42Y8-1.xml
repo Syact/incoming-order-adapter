@@ -1,0 +1,31 @@
+<orders>
+    <batchId>KLEN42Y8-1</batchId>
+    <order>
+        <clientId>VeA</clientId>
+        <externalOrderId>61234</externalOrderId>
+        <orderItems>
+            <item>
+                <itemId>13</itemId>
+                <amount>2</amount>
+            </item>
+            <item>
+                <itemId>42</itemId>
+                <amount>5</amount>
+            </item>
+            <item>
+                <itemId>153</itemId>
+                <amount>1</amount>
+            </item>
+        </orderItems>
+    </order>
+    <order>
+        <clientId>ViA</clientId>
+        <externalOrderId>testA453XX1</externalOrderId>
+        <orderItems>
+            <item>
+                <itemId>10</itemId>
+                <amount>1</amount>
+            </item>
+        </orderItems>
+    </order>
+</orders>
