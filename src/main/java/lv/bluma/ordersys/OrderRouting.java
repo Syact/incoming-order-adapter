@@ -32,7 +32,6 @@ public class OrderRouting extends RouteBuilder {
     }
 
     private void setupFilePollingContentBasedRouter() {
-        // noop=true - avota faili pēc apstrādes netiks pārvietoti uz citu mapi
         from("file:src/main/resources/input?noop=true")
                 .routeId("route-file-reader")
                 .choice()
